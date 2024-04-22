@@ -1,0 +1,293 @@
+/** IMPORTANDO as fontes */ 
+/* ! nao tirar porra */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Shrikhand&display=swap');
+/*! final da importação*/
+:root{
+    --texto-font1-family: "Shrikhand", Helvetica;
+    --texto-menu-font-weight: 400;
+    --texto-menu-font-size: 20px;
+    --texto-menu-letter-spacing: 0px;
+    --texto-menu-line-height: normal;
+    --texto-menu-font-style: normal;
+    --input-text-font-family: "Inter", Helvetica;
+    --input-text-font-weight: 400;
+    --input-text-font-size: 22px;
+    --input-text-letter-spacing: 0px;
+    --input-text-line-height: normal;
+    --input-text-font-style: normal;
+    --text-menu-bar-responsive-font-family: "Shrikhand", Helvetica;
+    --text-menu-bar-responsive-font-weight: 400;
+    --text-menu-bar-responsive-font-size: 13px;
+    --text-menu-bar-responsive-letter-spacing: 0px;
+    --text-menu-bar-responsive-line-height: normal;
+    --text-menu-bar-responsive-font-style: normal;
+    --texto-menu-font-family: "Shrikhand", Helvetica;
+  --texto-menu-font-weight: 400;
+  --texto-menu-font-size: 18.5px;
+  --texto-menu-letter-spacing: 0px;
+  --texto-menu-line-height: normal;
+  --texto-menu-font-style: normal;
+  
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0; 
+    
+  }
+  html{
+    overflow-x: hidden;
+  }
+  a {
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  
+  .header {
+    background: linear-gradient(
+        180deg,
+        rgb(14, 6, 161) 0%,
+        rgb(11.52, 68.32, 173.8) 20%,
+        rgb(17.77, 144.67, 186.6) 40%,
+        rgb(24.77, 199.4, 172.64) 60%,
+        rgb(32.52, 212.2, 112.49) 80%,
+        rgb(41, 225, 49) 100%
+      );;
+    padding-inline: 16px;
+  }
+  .h1_text{
+    width: 398px; 
+    height: 278px; 
+    text-align: center; 
+    color: black; 
+    font-size: 60px; 
+    font-family: var(--text-menu-bar-responsive-font-family); 
+    text-shadow: 0px 4px 20px #07060673;
+    position: relative;
+    top:80px; 
+    left: 560px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    word-wrap: break-word
+  }
+#cadastro_button{
+  width: 293px;
+  height:71px;
+  background-color: #00CED1;
+  border-radius: 30px;
+  border: 0;
+ font-family: var(--texto-font1-family) ;
+ font-size: 26px;
+  display: flex;
+  text-align: center;
+  line-height: 56px;
+  text-decoration: none;
+  color:white;
+  position: relative;
+ bottom: 300px;
+  left: 580px;
+  text-align: center;
+
+  transition: 500ms linear; 
+  overflow: hidden
+}
+#cadastro_button span{
+  position: relative;
+  left: 80px;
+  top: 8px;
+}
+#cadastro_button:hover{
+  background-color: gold; 
+  transform: scale(1.1);
+  transition: 500ms linear; 
+}
+#h2_text{
+  font-size: 30px ;
+  font-family: var(--texto-font1-family);
+  position: relative;
+  bottom:180px;
+  width: 263px;
+  left: 50px;
+  text-align:center;
+}
+.image_rifa{
+  position:relative;
+  bottom:170px;
+  left: 50px;
+}
+#logo_coc_new{
+   width: 118px;
+   height: 43px;
+   position: relative;
+    bottom: 190px;
+    left: 640px;
+}
+#tiktok_link{
+  position: relative; 
+  LEFT:1110px;
+  bottom:230px;
+}
+#instagram_link {
+  position: relative; 
+  LEFT:1200px;
+  bottom:230px;
+}
+  /*Todo inicio do sytle do menu-bar */
+  .logo-nova-terceirao{
+    position: relative;
+    right:70px;
+  }
+  #Trotes_a{
+    position: relative;
+    top:10px
+  }
+  #not_a{
+    position: relative;
+    top:10px
+  }
+  #login_A{
+    position: relative;
+    top:10px
+  }
+  .nav {
+    max-width: 90%;
+    height: 70px;
+    margin-inline: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    gap: 62px; 
+    list-style: none;
+    white-space:initial
+  }
+  
+  .nav-list a {
+   
+    color: #fff;
+    padding-block: 16px;
+    position: relative;
+    right: 40px; /*TODO  depois dos dias de  teste de sistema : "right:100px" */
+    font-family: var(--texto-font1-family);
+    font-size: var(--texto-menu-font-size);
+    line-break:loose
+  }
+  .nav-list a:hover{
+    color:gold
+  }
+  .hamburger {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+  }
+  
+  .hamburger::after,
+  .hamburger::before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+  }
+/** fim do menu bar **/
+  /**  isso e a parte responsiva  */
+  @media (max-width: 750px) {
+    .hamburger {
+      display: block;
+      z-index: 1;
+    }
+  
+    .nav-list {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(
+        180deg,
+        rgb(14, 6, 161) 0%,
+        rgb(11.52, 68.32, 173.8) 20%,
+        rgb(17.77, 144.67, 186.6) 40%,
+        rgb(24.77, 199.4, 172.64) 60%,
+        rgb(32.52, 212.2, 112.49) 80%,
+        rgb(41, 225, 49) 100%
+      );
+      clip-path: circle(100px at 90% -15%);
+      transition: 1s ease-out;
+  
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      gap: 0;
+  
+      pointer-events: none;
+    }
+  
+    .nav-list a {
+      font-size: 24px;
+      opacity: 0;
+      position: relative;
+      right:9px
+    }
+  
+    .nav-list li:nth-child(1) a {
+      transition: 0.5s 0.2s;
+    }
+  
+    .nav-list li:nth-child(2) a {
+      transition: 0.5s 0.4s;
+    }
+  
+    .nav-list li:nth-child(3) a {
+      transition: 0.5s 0.6s;
+    }
+  
+    /* Estilos ativos */
+  
+    .nav.active .nav-list {
+      clip-path: circle(1500px at 90% -15%);
+      pointer-events: all;
+    }
+  
+    .nav.active .nav-list a {
+      opacity: 1;
+    }
+  
+    .nav.active .hamburger {
+      position: fixed;
+      top: 26px;
+      right: 16px;
+      border-top-color: transparent;
+    }
+  
+    .nav.active .hamburger::before {
+      transform: rotate(135deg);
+    }
+  
+    .nav.active .hamburger::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  }
+  @media (max-width: 1920px){
+    .h1_text{
+      position: relative;
+      top:80px; 
+      left: 590px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+      word-wrap: break-word;
+      font-size:62px
+    }
+  }
