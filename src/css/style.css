@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html {
+    background-color: #fff;
+}
+
+#h1_title {
+    font-family: "Joti One", serif;
+    width: 614px;
+    height: 200px;
+    font-size: 46px;
+    position: relative;
+    left: 536px;
+    top:25px;
+    text-align: center;;
+    line-height: 64px;
+    letter-spacing:0.9px;
+}
+
+#img_logo {
+    height: 481px;
+    width: 351px;
+    position: relative;
+    left: 684px;
+    top: -5px;
+}
+
+.menu_rank {
+    width: 348px;
+    height: 453px;
+    background-color: #d8ced7;
+    position: relative;
+    bottom: 452px;
+    left: 59px;
+}
+
+#menu_h2 {
+    position: relative;
+    top: 13px;
+    left: 64px;
+    font-family: "Joti One", serif;
+    font-size: 32px;
+}
+
+.login_a {
+    font-family: "Jost", sans-serif;
+    font-size:20px;
+    position: relative;
+    left: 1305px;
+    top:-1200px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#button_a {
+    width: 281px;
+    height: 66px;
+    background-color: #32d816;
+    border-radius: 23px;
+    border: 0;
+    position: relative;
+    left: 736px;
+    bottom: 497px;
+    display: flex;
+    text-align: center;
+    line-height: 56px;
+    text-decoration: none;
+}
+
+#a_button {
+    color: #ffffff;
+    outline: none;
+    text-decoration: none;
+    font-family: "Josefin Slab", serif;
+    font-size: 24px;
+    font-style: normal;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+#copyright{
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    left: 768px;
+    bottom:495px;
+}
+#logo_instagram{
+    position: relative;
+    left: 1140px;
+    bottom:670px;
+}
+#insta_img{
+    width:47px;
+    height: 48px;
+}
+#logo_tiktok{
+    position: relative;
+    left: 1180px;
+    bottom:670px; 
+}
+#logo_tiktok{
+    width:47px;
+    height: 48px;
+}
